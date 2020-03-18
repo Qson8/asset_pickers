@@ -1,12 +1,44 @@
 # asset_pickers
 
-> 插件更新说明：iOS已支持，安卓待更新。
+> Plug-in update: iOS has been supported, android to be updated.
+
+Similar to WeChat style of resource selection, support a variety of picture, video combination selection, support compression, preview pictures and video.
 
 类似微信风格资源选取，支持图片、视频多种组合选取 ，支持压缩，预览图片和视频。
 
-## 插件使用说明：
+> Supported Platforms
+> * iOS
+> * Android (Ready to update)
+
+
+## How to Use
+
+#### 1. Depend on it
+Add this to your package's pubspec.yaml file:
+```
+dependencies:
+  asset_pickers: ^0.0.1
+```
+
+#### 2.  Install it
+You can install packages from the command line:
+with Flutter:
+
+````
+$ flutter pub get
+````
+Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
+
+#### 3. Import it
+Now in your Dart code, you can use:
+```dart
+import 'package:asset_pickers/asset_pickers.dart';
+```
+
+## Plugin instructions
 
 #### 插件调用入口
+
 ```dart
 static Future<List> getAssets({
       AssetsType assetType = AssetsType.imageOnly,
@@ -43,8 +75,15 @@ enum AssetsType {
 
 4、imageAndVideo
 
-![选择图片和视频](http://img.520lee.com/FgBiC1XQYhMZc-ankzzxXfAx7PWG)
+![选择图片和视频](https://img.520lee.com/FgBiC1XQYhMZc-ankzzxXfAx7PWG)
 
-github地址：https://github.com/Qson8/asset_pickers
 
-了解学习更多关于Flutter技术，欢迎关注公众号: Hi Flutter，个人微信:qiukangsheng
+### iOS
+Add the following entry to your Info.plist file, located in /Info.plist : 
+
+`<key>NSAppTransportSecurity</key> <dict> <key>NSAllowsArbitraryLoads</key> <true/> </dict> <key>NSMicrophoneUsageDescription</key> <string>...</string> <key>NSPhotoLibraryAddUsageDescription</key> <string>...</string> <key>NSCameraUsageDescription</key> <string>...</string> <key>NSPhotoLibraryUsageDescription</key> <string>...</string>`
+
+
+
+> github地址：https://github.com/Qson8/asset_pickers
+> 了解学习更多关于Flutter技术，欢迎关注公众号: Hi Flutter，个人微信:qiukangsheng
