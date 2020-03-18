@@ -63,15 +63,15 @@ enum AssetsType {
 
 1、imageOnly
 
-![仅选择图片](http://img.520lee.com/FgxDfQnJwL2DaSsUIGRBUHHT8ITy)
+![仅选择图片](https://img.520lee.com/FgxDfQnJwL2DaSsUIGRBUHHT8ITy)
 
 2、videoOnly
 
-![仅选择视频](http://img.520lee.com/Ftpbj1kTNn0NEgJwafigzDe-Gg9T)
+![仅选择视频](https://img.520lee.com/Ftpbj1kTNn0NEgJwafigzDe-Gg9T)
 
 3、imageOrVideo
 
-![选择图片或视频](http://img.520lee.com/FrzxNZ7JnzBjzmlfDPeZzXQ1sK0-)
+![选择图片或视频](https://img.520lee.com/FrzxNZ7JnzBjzmlfDPeZzXQ1sK0-)
 
 4、imageAndVideo
 
