@@ -17,7 +17,7 @@ Similar to WeChat style of resource selection, support a variety of picture, vid
 Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  asset_pickers: ^0.0.3
+  asset_pickers: ^0.1.1
 ```
 
 #### 2.  Install it
