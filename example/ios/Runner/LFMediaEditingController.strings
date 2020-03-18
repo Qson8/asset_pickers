@@ -1,0 +1,19 @@
+/* 
+  LFMediaEditingController.strings
+  Runner
+
+  Created by Qson on 2020/3/11.
+  Copyright © 2020 The Chromium Authors. All rights reserved.
+*/
+
+
+/* -------- LFBaseEditingController -------*/
+"_LFME_oKButtonTitle" = "Done";
+"_LFME_cancelButtonTitle" = "Cancel";
+"_LFME_processHintStr" = "Process...";
+
+"_LFME_alertViewCancelTitle" = "OK";
+
+/* -------- LFAudioItem  -------*/
+"_LFME_defaultAudioItem_name" = "Default AudioTrack";
+"_LFME_MediaPicker_prompt" = "Please select the audio";
