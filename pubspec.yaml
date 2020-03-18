@@ -1,6 +1,6 @@
 name: asset_pickers
 description: Similar to WeChat style of resource selection, support a variety of picture, video combination selection, support compression, preview pictures and video.
-version: 0.0.3
+version: 0.1.0
 author: Qson <455063392@qq.com>
 homepage: https://github.com/Qson8/asset_pickers
 

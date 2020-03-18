@@ -1,3 +1,7 @@
+## 0.1.0
+
+* iOS is supported, android to be updated
+
 ## 0.0.3
 
 * iOS is supported, android to be updated
