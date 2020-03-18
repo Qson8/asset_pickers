@@ -1,8 +1,8 @@
 name: asset_pickers
-description: A new flutter plugin project.
+description: 类似微信风格资源选取，支持图片、视频多种组合选取 ，支持压缩，预览图片和视频。
 version: 0.0.1
-author:
-homepage:
+author: Qson <455063392@qq.com>
+homepage: https://github.com/Qson8/asset_pickers.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

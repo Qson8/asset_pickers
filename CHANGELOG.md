@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* iOS已支持，安卓待更新
+* IOS is supported, android to be updated
