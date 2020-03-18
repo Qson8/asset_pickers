@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/services.dart';
 
 /// 资源选择类型
@@ -25,10 +24,8 @@ const String assetImageAdnVideo = 'assetImageAndVideo'; // 图片和视频一起
 class AssetPickers {
   static const MethodChannel _channel = const MethodChannel('asset_pickers');
 
-  static Future<List> getAssets({
-      AssetsType assetType = AssetsType.imageOnly,
-       int imageCount = 9
-       }) async {
+  static Future<List> getAssets(
+      {AssetsType assetType = AssetsType.imageOnly, int imageCount = 9}) async {
     Map map = {'assetType': getAssetType(assetType)};
     final List assets = await _channel.invokeMethod('get_assets', map);
     return assets;

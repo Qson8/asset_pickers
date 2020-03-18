@@ -17,7 +17,7 @@ Similar to WeChat style of resource selection, support a variety of picture, vid
 Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  asset_pickers: ^0.0.1
+  asset_pickers: ^0.0.3
 ```
 
 #### 2.  Install it
@@ -85,5 +85,6 @@ Add the following entry to your Info.plist file, located in /Info.plist :
 
 
 
-> github地址：https://github.com/Qson8/asset_pickers
-> 了解学习更多关于Flutter技术，欢迎关注公众号: Hi Flutter，个人微信:qiukangsheng
+github地址：https://github.com/Qson8/asset_pickers
+
+了解学习更多关于Flutter技术，欢迎关注公众号: Hi Flutter，个人微信:qiukangsheng
